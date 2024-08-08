@@ -11,6 +11,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Calendar mode="single" selected={date} onSelect={setDate} className="rounded-md border" />
       <Button>Click me</Button>
+      <Button>Click me</Button>
     </main>
   );
 }
